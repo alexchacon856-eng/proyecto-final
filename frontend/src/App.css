@@ -1,0 +1,80 @@
+:root {
+  --primary: #4f46e5;
+  --danger: #ef4444;
+  --bg: #f8fafc;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #1e293b;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Tarjeta del Formulario */
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  margin-bottom: 2rem;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: var(--primary);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  filter: brightness(1.1);
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+th {
+  background-color: #f1f5f9;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #64748b;
+}
+
+td {
+  padding: 12px 15px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.btn-delete {
+  background-color: var(--danger);
+  font-size: 0.8rem;
+}
